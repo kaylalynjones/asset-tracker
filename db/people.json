@@ -1,20 +1,80 @@
 {
   "_id":{"$oid":"000000000000000000000001"},
-  "name":"Bob Jones",
-  "age":25,
-  "money":12834.45,
-  "birthday":{"$date":477295200000},
-  "photo":"http://images.com/bob.jpg",
-  "isEmployed":true,
-  "atomsInBody":7600500400300200100,
-  "spouse":{"name":"Janet", "age":21},
-  "things":["blue", 3, 3.14, true, null, {"a":7}, [3,5,7]],
-  "address":{"$undefined":true},
-  "resume":null,
-  "employeeId":{"$oid":"000000000000000000000002"}
-}
+  "name":"Oliver Sinclaire",
+  "cash":120000.50,
+  "photo":"http://www.independent.co.uk/incoming/article6149355.ece/alternates/w300/Lichfield.jpg",
+  "assets":[
+    {
+     "name":"Vehicle",
+     "photo":"http://img2.rnkr-static.com/list_img/2431/282431/C300/full-list-of-cadillac-models-u3.jpg",
+     "count":1,
+     "value":30000
+    },
+    {
+      "name":"Macbook",
+      "photo":"http://ksa-price.com/files/products/1096.gif",
+      "count":2,
+      "value":1600
+    },
+    {
+      "name":"Boat",
+      "photo":"http://www.popularmechanics.com/cm/popularmechanics/images/Uu/hybrid-boat-01-0313-mdn.jpg",
+      "count":1,
+      "value":70000
+    }
+  ],
+  "_assetTotal": 103200
+},
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Gloria Steinhart",
+  "cash":25000.30,
+  "photo":"http://interactive.brandrepublic.com/live/prweek-mentoring/images/mentors/sally-costerton.jpg",
+  "assets":[
+    {
+      "name":"Vehicle",
+      "photo":"http://imganuncios.mitula.net/2004_honda_accord_3_0_ex_brooklyn_ny_100670092006203461.jpg",
+      "count":1,
+      "value":15000},
+    {
+      "name":"Fur Coat",
+      "photo":"http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=23853301",
+      "count":1,
+      "value":4000
+    },
+    {
+      "name":"Racing Greyhound",
+      "photo":"http://latimesblogs.latimes.com/.a/6a00d8341c630a53ef0120a7aa1ea8970b-pi",
+      "count":2,
+      "value":3000}
+  ],
+  "_assetTotal":25000
+},
 {
   "_id":{"$oid":"000000000000000000000003"},
-  "name":"Jane Marsh"
+  "name":"Bill Thorton",
+  "cash":1400.20,
+  "photo":"http://gumtree.rsvp.com.au/membermedia/-1_4838230_0_1_0.jpg",
+  "assets":[
+    {
+      "name":"Vehicle",
+      "photo":"http://brightjourney.info/wp-content/uploads/2014/06/cars-for-sale-el-pasoe.jpg",
+      "count":1,
+      "value":3000
+    },
+    {
+      "name":"Shotgun",
+      "photo":"http://s10.thisnext.com/media/largest_dimension/E33A2C59.jpg",
+      "count":2,
+      "value":300
+    },
+    {
+      "name":"Lawnmower",
+      "photo":"http://cdn1.viewpoints.com/pro-product-photos/000/132/093/300/1309555381-28752_full.jpg",
+      "count":1,
+      "value":1500
+    }
+  ],
+  "_assetTotal": 5100
 }
 

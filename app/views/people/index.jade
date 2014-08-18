@@ -1,0 +1,24 @@
+extends ../shared/template
+block content
+  h2 Client List Page!
+
+  table
+    thead
+      th Name
+      th Photo
+      th Cash
+      th Asset Total
+      th Total
+    tbody
+      each person in people
+        tr
+          td: a(href='/people/'+person._id)= person.name
+          td: img(src=person.photo)
+          td $#{person.cash.toFixed(2)}
+          td $#{person._assetTotal.toFixed(2)}
+          td $#{(person._assetTotal + person.cash).toFixed(2)}
+
+block scripts
+  script(src='/js/user/home.js')
+
+

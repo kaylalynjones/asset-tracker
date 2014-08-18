@@ -1,0 +1,13 @@
+extends ../shared/template
+block content
+  h2 Create a Client Page!
+
+  form(method='post', action='/people/new')
+    input(name='name', type='text', placeholder='Jeremy Jones')
+    input(name='photo', type='text', placeholder='your photo')
+    input(name='cash', type='number', value='1000')
+    button Create!
+
+block scripts
+  script(src='/js/user/home.js')
+

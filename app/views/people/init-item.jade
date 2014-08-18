@@ -1,0 +1,14 @@
+extends ../shared/template
+block content
+  h2 Add an Asset Page!
+
+  form(method='post', action='/people/'+id+'/items/new')
+    input(name='asset[name]', type='text', placeholder='Vehicle')
+    input(name='asset[photo]', type='text', placeholder='Picture of Asset')
+    input(name='asset[count]', type='number', value=2)
+    input(name='asset[value]', type='number', value=1000)
+    button Add Asset
+
+block scripts
+  script(src='/js/user/home.js')
+
