@@ -1,32 +1,24 @@
-## name of project
+## Asset Tracker
 ### Code Badges
-build status icon
-coverage status icon
 
 ### About
-write a description about your project
+This app tracks clients assets.
 
 ### Models
 ```
-Model 1
-prop-a
-prop-b
-.classMethod-c
-#instanceMethod-d
-```
-
-```
-Model 2
-prop-e
-prop-f
-.classMethod-g
-#instanceMethod-h
+Person
+constructor
+.all
+.findById
+#save
+#addAsset
+#destroy
 ```
 
 ### Features
-- feature 1
-- feature 2
-- feature 3
+- Add Assets
+- Catalog Assets
+- Delete Client
 
 ### Running Tests
 ```bash
